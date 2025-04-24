@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augusto App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="phone-frame">
+        <div class="container">
+            <div class="header">- Augusto App -</div>
+
+           
+            <input type="radio" id="login" name="form-toggle" checked>
+            <input type="radio" id="signup" name="form-toggle">
+
+            <div class="auth-container">
+                
+                <div class="form login-form">
+                    <h3>Login</h3>
+                    <form>
+                        <input type="text" placeholder="Email" required>
+                        <input type="password" placeholder="Senha" required>
+                        <button type="submit">Entrar</button>
+                    </form>
+                    <label for="signup" class="toggle">Sem conta, mano? Se registre</label>
+                </div>
+
+                
+                <div class="form signup-form">
+                    <h3>Cadastro</h3>
+                    <form>
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Senha" required>
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                    <label for="login" class="toggle">Tem conta? Entre</label>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="phone-button"></div>
+    </div>
+
+</body>
+</html>
